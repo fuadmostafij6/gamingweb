@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    }
+    .hd{
+        height: auto;
+        width: auto;
+        float: initial;
+    }
+    
+    .main{
+    
+        height: 100%;
+        width: 100%;
+    }
+    
+    .navbar{
+        width: 100%;
+        background-color: darkred;
+    
+    }
+    .nav-item .btn{
+        margin-right: 15px;
+        background-color: rgb(99, 12,12);
+        border: 2px solid rgb(177, 37, 37);
+    }
+    .navbar li a {
+    color: whitesmoke;
+    
+    }
+    .nav-item :hover{
+    background-color: darkred;
+    
+    }
+    .navbar  a:hover {
+        color: whitesmoke;
+    }
+    .nav-item .dropdown-menu{
+        background-color: rgb(99, 12,12);
+    }
+    * {
+        box-sizing: border-box;
+      }
+
+    .t h2{
+        float: left;
+    }
+    .t button {
+        float: right;
+        border-radius: 5px;
+        padding: 5px;
+        margin-right: 20px;
+    }
+    .t button a:hover{
+        text-decoration: none;
+       
+    }
+    .t button:hover {
+        box-shadow: 5px 5px 5px;
+        
+    }
+    .hide {
+        display: none;
+      }
+      
+      .myDIV:hover + .hide {
+        display:block;
+        color: white;
+        background: silver;
+      }
+    .myDIV{
+float: left;
+margin-top: 150px;
+
+    }
